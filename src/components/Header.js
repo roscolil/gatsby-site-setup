@@ -1,11 +1,31 @@
-import React from 'react'
+import React from "react"
+import { Link } from 'gatsby'
 
-const Header = () => {
+export default function Header() {
   return (
     <header>
-      <h1>This is the Header heading</h1>
+      <Link to="/" activeClassName="is-active" exact={true}>Home</Link>
+      <Link to="/nuranow" activeClassName="is-active">
+        nuranow
+      </Link>
+      <Link to="/nuraphone" activeClassName="is-active">
+        nuraphone
+      </Link>
+      <Link to="/nuraloop" activeClassName="is-active">
+        nuraloop
+      </Link>
+      <Link to="/how-it-works" activeClassName="is-active">
+        How it Works
+      </Link>
+      <Link to="/accessories" activeClassName="is-active">
+        Accessories
+      </Link>
+      <Link to="/blog" activeClassName="is-active">
+        Blog
+      </Link>
+      <Link to="/support" activeClassName="is-active">
+        Support
+      </Link>
     </header>
   )
 }
-
-export default Header
