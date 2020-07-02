@@ -1,12 +1,13 @@
 import React from "react"
+import 'normalize.css'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
-export default function Home() {
+export default function HowItWorks() {
   return (
     <div>
       <Header />
-      <h3>Home page stuff</h3>
+      <h1>How It Works page</h1>
       <Footer />
     </div>
   )

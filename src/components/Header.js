@@ -1,10 +1,12 @@
 import React from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 
 export default function Header() {
   return (
     <header>
-      <Link to="/" activeClassName="is-active" exact={true}>Home</Link>
+      <Link to="/" activeClassName="is-active" exact={true}>
+        Home
+      </Link>
       <Link to="/nuranow" activeClassName="is-active">
         nuranow
       </Link>

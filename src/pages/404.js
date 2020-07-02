@@ -1,8 +1,9 @@
 import React from "react"
+import "normalize.css"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
-export default function Nuraloop() {
+export default function NotFoundPage() {
   return (
     <div>
       <Header />
