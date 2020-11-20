@@ -1,14 +1,12 @@
 import React from "react"
 import "normalize.css"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import "../styles/styles.scss"
+import Layout from "../components/layout/Layout"
 
 export default function NotFoundPage() {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h3>This is the new 404 page</h3>
-      <Footer />
-    </div>
+    </Layout>
   )
 }

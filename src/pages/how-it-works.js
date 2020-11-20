@@ -3,10 +3,10 @@ import "normalize.css"
 import "../styles/styles.scss"
 import Layout from "../components/layout/Layout"
 
-export default function Nuraphone() {
+export default function HowItWorks() {
   return (
     <Layout>
-      <h1>Nuraphone page</h1>
+      <h1>How It Works page</h1>
     </Layout>
   )
 }

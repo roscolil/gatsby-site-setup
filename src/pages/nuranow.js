@@ -1,14 +1,12 @@
 import React from "react"
-import 'normalize.css'
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import "normalize.css"
+import "../styles/styles.scss"
+import Layout from "../components/layout/Layout"
 
 export default function Nuranow() {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>NuraNow page</h1>
-      <Footer />
-    </div>
+    </Layout>
   )
 }

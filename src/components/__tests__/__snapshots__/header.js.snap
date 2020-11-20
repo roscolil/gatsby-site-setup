@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="header__title"
+  >
+    Nura Gatsby test site
+  </h1>
+  <a
+    className="header__nav-link"
+    href="/"
+  >
+    <img
+      alt=""
+      className="header__logo"
+      src=""
+    />
+    IMG
+  </a>
+  <a
+    className="header__nav-link"
+    href="/nuranow"
+  >
+    nuranow
+  </a>
+  <a
+    className="header__nav-link"
+    href="/nuraphone"
+  >
+    nuraphone
+  </a>
+  <a
+    className="header__nav-link"
+    href="/nuraloop"
+  >
+    nuraloop
+  </a>
+  <a
+    className="header__nav-link"
+    href="/how-it-works"
+  >
+    How it Works
+  </a>
+  <a
+    className="header__nav-link"
+    href="/accessories"
+  >
+    Accessories
+  </a>
+  <a
+    className="header__nav-link"
+    href="https://nura2.webflow.io/backstage"
+  >
+    Blog
+  </a>
+  <a
+    className="header__nav-link"
+    href="https://help.nuraphone.com/"
+  >
+    Support
+  </a>
+</header>
+`;
