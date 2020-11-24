@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
-import "../../styles/styles.scss"
-
+// import "../../styles/styles.scss"
+import headerStyles from './header.module.scss'
 export default function Header({ children }) {
     const data = useStaticQuery(
       graphql`
@@ -15,7 +15,7 @@ export default function Header({ children }) {
       `
     )
   return (
-    <header className="header">
+    <header className={headerStyles.header}>
         <h1 className="header__title">Nura Gatsby test site</h1>
         <Link to="/" className="header__nav-link">
           <img className="header__logo" src="" alt="" />
